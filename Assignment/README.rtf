@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 HelveticaNeue-Bold;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\fs24 \cf0 1. Model\
+	The model object - CarListViewModel has only the values we need to populate the screen\
+	The model object - listings need to populate all the values from the response JSON\
+2.Logging\
+	Created CGLogging class that exposes a static method for any metrics/logging\
+3. Issues\
+	Had issues with the response JSON populating the model objects (codable). Missed \'93s\'94 in listing
+\f1\b s :)\
+	
+\f0\b0 UIImage view creation with the image URL has issues. \
+4. Swift lint\
+	Need to use swift lint\
+5. MVVM\
+	For now, used MVVM. Since more values are coming in the JSON response which we don\'92t need all the values in the first (list) screen.\
+6. TODO\
+	Unwrap optionals\
+	Code refactor\
+	Naming conventions\
+	Comments \
+7. Created NIB files for custom cells (list & detail - snapshot table cell)\
+8. Used story board. Need to change it to custom view controllers (like base view controller) that implements from UIViewController & add CF project based common logics/UI look & feel logics\
+\
+}
